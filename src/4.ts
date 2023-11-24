@@ -21,7 +21,7 @@ class Person {
 abstract class House {
   door: boolean;
   key: Key;
-  tenants: Person[];
+  tenants: Person[] = [];
 
   abstract openDoor(key: Key): void;
 
